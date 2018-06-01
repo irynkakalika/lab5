@@ -6,10 +6,10 @@ using System.Configuration;
 
 namespace BL.UnitTests
 {
-    [TestClass]
+    [TestClass()]
     public class UserTest
     {
-        [TestMethod]
+        [TestMethod()]
         public void TestInsert()
         {
             IRepository<User> repo = new UsersRepository(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
@@ -23,6 +23,7 @@ namespace BL.UnitTests
             Assert.AreEqual<User>(user, selectedUser);
         }
 
+        [TestMethod()]
         public void TestUpdate()
         {
             IRepository<User> repo = new UsersRepository(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
@@ -37,6 +38,7 @@ namespace BL.UnitTests
             Assert.AreEqual<User>(user, updatedUser);
         }
 
+        [TestMethod()]
         public void TestSelect()
         {
             IRepository<User> repo = new UsersRepository(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
@@ -44,6 +46,7 @@ namespace BL.UnitTests
             Assert.IsNotNull(users);
         }
 
+        [TestMethod()]
         public void TestDelete()
         {
             IRepository<User> repo = new UsersRepository(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
