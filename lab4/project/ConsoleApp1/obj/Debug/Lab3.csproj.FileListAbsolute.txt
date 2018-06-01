@@ -1,0 +1,21 @@
+C:\Users\vmuka\source\repos\SharedProject1\ConsoleApp1\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\vmuka\source\repos\SharedProject1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\vmuka\source\repos\SharedProject1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\vmuka\source\repos\SharedProject1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\vmuka\source\repos\SharedProject1\ConsoleApp1\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+C:\Users\vmuka\source\repos\SharedProject1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\vmuka\source\repos\SharedProject1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\Google Диск\КПІ_3курс\Техн. створення прогр. продуктів\lab4\project\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Google Диск\КПІ_3курс\Техн. створення прогр. продуктів\lab4\project\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Google Диск\КПІ_3курс\Техн. створення прогр. продуктів\lab4\project\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Google Диск\КПІ_3курс\Техн. створення прогр. продуктів\lab4\project\ConsoleApp1\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+D:\Google Диск\КПІ_3курс\Техн. створення прогр. продуктів\lab4\project\ConsoleApp1\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+D:\Google Диск\КПІ_3курс\Техн. створення прогр. продуктів\lab4\project\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Google Диск\КПІ_3курс\Техн. створення прогр. продуктів\lab4\project\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Ірина\Desktop\lab4\project\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Ірина\Desktop\lab4\project\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Ірина\Desktop\lab4\project\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Ірина\Desktop\lab4\project\ConsoleApp1\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+C:\Users\Ірина\Desktop\lab4\project\ConsoleApp1\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\Ірина\Desktop\lab4\project\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Ірина\Desktop\lab4\project\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
