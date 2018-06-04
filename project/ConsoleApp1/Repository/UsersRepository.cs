@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
 using System.Net.Configuration;
 using ConsoleApp1.Domain;
@@ -12,6 +13,11 @@ namespace ConsoleApp1.Repository
         public UsersRepository(string connectionString)
         {
             this.connectionString = connectionString;
+        }
+
+        public UsersRepository()
+        {
+            connectionString = @"Data Source=localhost;Initial Catalog=SocialNetwork;Integrated Security=True";
         }
 
         public List<User> Read()

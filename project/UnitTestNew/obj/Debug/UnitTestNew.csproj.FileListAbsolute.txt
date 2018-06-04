@@ -1,0 +1,17 @@
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\bin\Debug\UnitTestNew.dll
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\bin\Debug\UnitTestNew.pdb
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\bin\Debug\ConsoleApp1.dll
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\bin\Debug\ConsoleApp1.pdb
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\bin\Debug\ConsoleApp1.dll.config
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\obj\Debug\UnitTestNew.csproj.CoreCompileInputs.cache
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\obj\Debug\UnitTestNew.csproj.CopyComplete
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\obj\Debug\UnitTestNew.dll
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\obj\Debug\UnitTestNew.pdb
+C:\Users\vmuka\source\repos\Help\lab5\project\UnitTestNew\obj\Debug\UnitTestNew.csprojResolveAssemblyReference.cache
