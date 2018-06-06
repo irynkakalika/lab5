@@ -1,64 +1,61 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Configuration;
+using Chat.BL;
+using Chat.BL.DTO;
 using ConsoleApp1.Domain;
 using ConsoleApp1.Repository;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
+using System.Linq;
 
 namespace UnitTestNew
 {
     [TestClass]
     public class UnitTest1
     {
+        private Mock<IRepository<User>> mockrepository;
+        IUserService service;
+        public UnitTest1()
+        {
+            mockrepository = new Mock<IRepository<User>>();
+            service = new UserService(mockrepository.Object);
+        }
+
         [TestMethod]
         public void TestInsert()
         {
-            IRepository<User> repo = new UsersRepository();
-            int id = 3000;
-
-            User user = new User(id, "Tom", "Hardson", 1, "hardson@gmail.com", 2);
-            repo.Insert(user);
-
-            User selectedUser = repo.ReadById(id);
-            Assert.IsTrue(user.Equals(selectedUser));
-
-            //Assert.AreEqual<User>(user, selectedUser);
+            mockrepository.Setup(m => m.ReadById(It.IsAny<Int32>())).Returns(() => null);
+            service.CreateUser(new UserDTO(1, "test", "test", 1, "test", 1));
+            mockrepository.Verify(m => m.Insert(It.IsAny<User>()), Times.Once);
         }
 
         [TestMethod]
         public void TestUpdate()
         {
-            IRepository<User> repo = new UsersRepository();
-            int id = 3000;
-
-            var user = repo.ReadById(id);
-            user.name = "Nikola";
-            repo.Update(user);
-
-            var updatedUser = repo.ReadById(id);
-
-            Assert.AreEqual<User>(user, updatedUser);
+            mockrepository.Setup(m => m.ReadById(It.IsAny<Int32>())).Returns(new User(1, "test", "test", 1, "test", 1));
+            service.ChangeUser(new UserDTO(1, "test", "test", 1, "test", 1));
+            mockrepository.Verify(m => m.Update(It.IsAny<User>()), Times.Once);
         }
 
         [TestMethod]
         public void TestSelect()
         {
-            IRepository<User> repo = new UsersRepository();
-            var users = repo.Read();
-            Console.WriteLine(users);
-            Assert.IsNotNull(users);
+            mockrepository.Setup(m => m.Read()).Returns(new List<User>{
+                new User(1, "test", "test", 1, "test", 1),
+                new User(2, "test", "test", 1, "test", 1),
+                new User(3, "test", "test", 1, "test", 1)
+                });
+            var users = service.GetAllUsers();
+            Assert.AreEqual(3, users.Count());
         }
 
         [TestMethod]
         public void TestDelete()
         {
-            IRepository<User> repo = new UsersRepository();
-            int id = 3000;
-
-            repo.Delete(id);
-
-            User user = repo.ReadById(id);
-
-            Assert.IsNull(user);
+            mockrepository.Setup(m => m.ReadById(It.IsAny<Int32>())).Returns(new User(1, "test", "test", 1, "test", 1));
+            service.DeleteUser(1);
+            mockrepository.Verify(m => m.Delete(It.IsAny<Int32>()), Times.Once);
         }
     }
 }

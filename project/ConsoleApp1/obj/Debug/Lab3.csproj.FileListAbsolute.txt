@@ -26,3 +26,17 @@ C:\Users\vmuka\source\repos\Help\lab5\project\ConsoleApp1\obj\Debug\Lab3.csprojR
 C:\Users\vmuka\source\repos\Help\lab5\project\ConsoleApp1\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
 C:\Users\vmuka\source\repos\Help\lab5\project\ConsoleApp1\obj\Debug\ConsoleApp1.dll
 C:\Users\vmuka\source\repos\Help\lab5\project\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\newLab\lab5\project\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\newLab\lab5\project\ConsoleApp1\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+D:\newLab\lab5\project\ConsoleApp1\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+D:\newLab\lab5\project\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\newLab\lab5\project\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\newLab\lab5\project\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\newLab\lab5\project\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Ире\lab5\lab5\project\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Ире\lab5\lab5\project\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Ире\lab5\lab5\project\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Ире\lab5\lab5\project\ConsoleApp1\obj\Debug\Lab3.csprojAssemblyReference.cache
+D:\Ире\lab5\lab5\project\ConsoleApp1\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+D:\Ире\lab5\lab5\project\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Ире\lab5\lab5\project\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
